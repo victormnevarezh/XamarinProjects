@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:converters="clr-namespace:UberEats.ImageConverter"
+             xmlns:renders="clr-namespace:UberEats.Renders"
+             xmlns:triggers="clr-namespace:UberEats.Triggers"
+             x:Class="UberEats.Views.CuentaDetalleView">
+    <ContentPage.ToolbarItems>
+        <!--BOTON GUARDAR-->
+        <ToolbarItem 
+            Text="Guardar"
+            Command="{Binding GuardarCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="ImageConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center"
+            Padding="50">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="220"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="170"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+
+                <Label 
+                    Grid.Row="0" 
+                    Grid.Column="0"
+                    WidthRequest="100" 
+                    Text="Nombre: " 
+                    VerticalOptions="End" 
+                    HorizontalOptions="End" 
+                    FontFamily="uberMedium"/>
+
+                <!--INPUT NOMBRE RESTAURANTE-->
+                <Entry 
+                    Grid.Row="1" 
+                    Grid.Column="0" 
+                    Grid.ColumnSpan="2" 
+                    WidthRequest="218" 
+                    VerticalOptions="Start" 
+                    Placeholder="Nombre Restaurante"
+                    Text="{Binding Nombre}"/>
+
+                <!--PREVIEW IMAGEN-->
+                <Image 
+                    Grid.Row="2" 
+                    Grid.Column="0" 
+                    Grid.ColumnSpan="2" 
+                    Source="{Binding Foto, Converter={StaticResource ImageConverter}}" 
+                    WidthRequest="220"/>
+
+                <!--BOTON CARGAR FOTO-->
+                <Button 
+                    Grid.Row="3" 
+                    Grid.Column="0" 
+                    Text="Subir foto" 
+                    WidthRequest="100" 
+                    HeightRequest="40" 
+                    VerticalOptions="Start"
+                    Command="{Binding SeleccionarFotografiaCommand}"/>
+
+                <!--BOTON TOMAR FOTO-->
+                <Button 
+                    Grid.Row="3" 
+                    Grid.Column="1" 
+                    Text="Tomar foto" 
+                    WidthRequest="100" 
+                    HeightRequest="40" 
+                    VerticalOptions="Center"
+                    Command="{Binding TomarFotografiaCommand}"/>
+
+                <Label 
+                    Grid.Row="5" 
+                    Grid.Column="0" 
+                    WidthRequest="100" 
+                    Text="Dirección: " 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Start" 
+                    FontFamily="uberMedium"/>
+
+                <!--INPUT DIRECCIÓN-->
+                <Entry 
+                    Grid.Row="5" 
+                    Grid.Column="0" 
+                    Grid.ColumnSpan="5"
+                    WidthRequest="370" 
+                    HorizontalOptions="End" 
+                    Placeholder="Dirección Restaurante"
+                    Text="{Binding Direccion}"/>
+
+                <Label 
+                    Grid.Row="0" 
+                    Grid.Column="3" 
+                    Text="Lat: " 
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Start" 
+                    FontFamily="uberMedium"/>
+
+                <!--INPUT LATITUD-->
+                <Entry
+                    Grid.Row="0" 
+                    Grid.Column="3"
+                    Grid.ColumnSpan="2"
+                    WidthRequest="180" 
+                    HorizontalOptions="End"
+                    ReturnCommand="{Binding ActualizarCoordCommand}"
+                    Placeholder="Latitud ubicación"
+                    Keyboard="Numeric"
+                    Text="{Binding Latitud}">
+                    <Entry.Triggers>
+                        <EventTrigger Event="TextChanged">
+                            <triggers:CoordenadasTrigger/>
+                        </EventTrigger>
+                    </Entry.Triggers>
+                </Entry>
+                    
+                   
+
+                <Label 
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Text="Lng: "
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start"
+                    FontFamily="uberMedium"/>
+
+                <!--INPUT LONGITUD-->
+                <Entry 
+                    Grid.Row="1" 
+                    Grid.Column="3"
+                    Grid.ColumnSpan="2"
+                    WidthRequest="180"
+                    HorizontalOptions="End"
+                    ReturnCommand="{Binding ActualizarCoordCommand}"
+                    Placeholder="Longitud ubicación"
+                    Keyboard="Numeric"
+                    Text="{Binding Longitud}">
+                    <Entry.Triggers>
+                        <EventTrigger Event="TextChanged">
+                            <triggers:CoordenadasTrigger/>
+                        </EventTrigger>
+                    </Entry.Triggers>
+                </Entry>
+
+                    <!--MAPA-->
+                <maps:Map 
+                    x:Name="mapaRestaurante"  
+                    Grid.Row="2" 
+                    Grid.Column="3"
+                    Grid.ColumnSpan="2"
+                    BackgroundColor="Blue" 
+                    HeightRequest="220"
+                    WidthRequest="220"/>
+
+                <!--BOTON OBTENER COORDENADAS-->
+                <Button
+                    Grid.Row="3" 
+                    Grid.Column="3"
+                    Grid.ColumnSpan="2" 
+                    Text="Obtener coordenadas"
+                    Command="{Binding ObtenerCoordCommand}"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
