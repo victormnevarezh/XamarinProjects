@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAzureBlob.Views.ImageUploaderPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Upload Image"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+            <Button
+                x:Name="buttonTakePicture"
+                Text="Take Picture"
+                Clicked="buttonTakePicture_Clicked"/>
+            <Button
+                x:Name="buttonSelectPicture" 
+                Text="Select Picture"
+                Clicked="buttonSelectPicure_Clicked"/>
+            <Image
+                x:Name="ImagePicture"
+                HeightRequest="200"/>
+            <Button
+                x:Name="buttonUpload"
+                Text="Upload"
+                Clicked="buttonUpload_Clicked"/>
+            <Button
+                x:Name="buttonUpload12"
+                Text="Upload SDK 12"
+                Clicked="buttonUpload12_Clicked"/>
+            <ActivityIndicator
+                x:Name="activityIndicator"/>
+            <Label
+                x:Name="labelMessage"
+                HorizontalTextAlignment="Center"
+                TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAzureBlob.Views.TextUploaderPage">
+    <ContentPage.Content>
+        <StackLayout
+            Margin="20, 35, 20, 20">
+            <Label
+                Text="Upload Text"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Enter Text"/>
+            <Editor
+                x:Name="editorText"
+                HeightRequest="100"/>
+            <Button
+                x:Name="buttonUpload"
+                Text="Upload"
+                Clicked="buttonUpload_Clicked"/>
+            <Button
+                x:Name="buttonUpload12"
+                Text="Upload12"
+                Clicked="buttonUpload12_Clicked"/>
+            <ActivityIndicator
+                x:Name="activityIndicator"/>
+            <Label
+                x:Name="labelMessage"
+                HorizontalTextAlignment="Center"
+                TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

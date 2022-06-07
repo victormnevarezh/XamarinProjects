@@ -1,0 +1,36 @@
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\AppAzureBlob.deps.json
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\AppAzureBlob.dll
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\ref\AppAzureBlob.dll
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\AppAzureBlob.pdb
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.csproj.AssemblyReference.cache
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\ImageBrowserPage.xaml.g.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\ImageUploaderPage.xaml.g.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\MainTabbedPage.xaml.g.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\TextBrowserPage.xaml.g.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\TextUploaderPage.xaml.g.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.AssemblyInfoInputs.cache
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.AssemblyInfo.cs
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.csproj.CoreCompileInputs.cache
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.dll
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\ref\AppAzureBlob.dll
+C:\Users\victo\Documents\Directorio Proyectos\Xamarin\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.pdb
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\AppAzureBlob.deps.json
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\AppAzureBlob.dll
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\ref\AppAzureBlob.dll
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\bin\Debug\netstandard2.1\AppAzureBlob.pdb
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.csproj.AssemblyReference.cache
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\ImageBrowserPage.xaml.g.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\ImageUploaderPage.xaml.g.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\MainTabbedPage.xaml.g.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\TextBrowserPage.xaml.g.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\Views\TextUploaderPage.xaml.g.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.AssemblyInfoInputs.cache
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.AssemblyInfo.cs
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.csproj.CoreCompileInputs.cache
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\XamlC.stamp
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.dll
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\ref\AppAzureBlob.dll
+C:\AppAzureBlob\AppAzureBlob\AppAzureBlob\AppAzureBlob\obj\Debug\netstandard2.1\AppAzureBlob.pdb
